@@ -5,7 +5,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { ItemPage } from '../pages/item/item';
+import { ItemsPage } from '../pages/items/items';
 @Component({
   templateUrl: 'app.html'
 })
@@ -27,8 +27,8 @@ export class MyApp {
     this.nav.push(HomePage);
   }
 
-  goToItem() {
-    this.nav.push(ItemPage);
+  goToItems() {
+    this.nav.push(ItemsPage);
   }
 }
 
