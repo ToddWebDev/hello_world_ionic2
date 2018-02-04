@@ -1,17 +1,21 @@
 <ion-header>
-  <ion-navbar>
+	<ion-navbar color="primary">
+		<button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+		<ion-title>Ionic Max</ion-title>
+	</ion-navbar>
+  <ion-toolbar color="secondary">
     <ion-title>
-      Ionic Max
+      Home
     </ion-title>
-  </ion-navbar>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-  The world is crazy...
+  Uno. Due. Tre. Formaggio!
   
-  
-  <button ion-button block (click)="sayHello()">Button</button>
-  
+  <button ion-button block menuToggle>Toggle Menu</button>
   
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
